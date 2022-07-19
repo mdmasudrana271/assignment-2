@@ -40,3 +40,35 @@ body{
     border-radius: 3px;
     border: none;
 }
+ /* aside bar  */
+.side-menu-container{
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom-box-section{
+    margin-top: 10%;
+    margin-left: 10%;
+    float: left;
+}
+.side-menu {
+    width: 252px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #161616;
+}
+.blog{
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
