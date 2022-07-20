@@ -10,7 +10,7 @@ body{
     width: 80%;
     height: 80vh;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,8 @@ body{
 }
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    height: 100%;
+    padding-left: 5%;
 
 }
 
@@ -35,7 +36,7 @@ body{
 }
 .banner-img{
     margin-top: 10%;
-    height: 91%;
+    height: 95%;
 }
 .watch-btn{
     background-color: #DD0000;
@@ -156,9 +157,9 @@ hr{
     margin: 10px;
 }
 
-/* media query section  */
+/* media query for tablet responsive  */
 
-@media screen and (min-width:689px) and (max-width:992px){
+@media only screen and (min-width:689px) and (max-width:992px){
     .top-section{
         width: 90%;
         height: 40vh;
@@ -241,4 +242,110 @@ hr{
     .footer-items{
         width: 90%;
     }
+}
+
+/* media query for moblie responsiv */
+
+@media only screen and (max-width:688px) {
+    .top-section{
+        width: 85%;
+        /* height: 50%; */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .half-width{
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+    }
+    .description{
+        width: 180px;
+        display: flex;
+        padding-top: 5%;
+        align-items: flex-start;
+        justify-content: center;
+        
+    }
+    .hafl-width-heading{
+        width: 100%;
+        font-size: 22px;
+    }
+    .hafl-width-paragraph{
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        white-space: nowrap;
+    }
+    .watch-btn{
+        padding: 5% 6%;
+    }
+    .banner-img{
+        width: 100%;
+
+    }
+
+    .side-menu-container{
+        width: 275px;
+        height: 312px;
+        background-color: #f1ecec;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+    }
+    
+    .side-menu{
+        width: 238px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        color: #161616;
+        text-decoration: none;
+    }
+    .match{
+        background-color: #DD0000;
+        color: #FFFFFF;
+}
+
+/* box section  */
+
+.bottom-box-section{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.box-container{
+    width: 90%;
+    display: grid;
+    justify-items: end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1 px solid indianred;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    width: 100vw;
+    /* margin-left: 40%; */
+    align-items: center;
+    justify-items: center;
+    justify-content: start;
+}
+.box{
+    width: 70%;
+    height: 65%;     
+}
+
+
 }
