@@ -120,12 +120,6 @@ body{
     align-items: center;
 }
 
-.invisible-button button{
-    background-color: #DD0000;
-    display: flex;
-    visibility: hidden;
-}
-
 footer{
     background-color: #161616;
     width: 100vw;
@@ -207,6 +201,7 @@ hr{
     .side-menu{
         width: 192px;
         height: 70px;
+        border: 1px solid lightgray;
     }
      .bottom-box-section{
         margin-top: 10%;
@@ -235,9 +230,6 @@ hr{
     .box-info img{
         width: 1.5em;
         height: 1.5em;
-    }
-    .invisible-button{
-        visibility: visible;
     }
     .footer-section{
         padding-bottom: 7%;
