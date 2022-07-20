@@ -6,6 +6,7 @@ body{
     overflow-x: hidden;
     background-color: #f1ecec;
 }
+/* top banner  */
 .top-section{
     background-color:#161616;
     width: 80%;
@@ -47,10 +48,7 @@ body{
     border-radius: 3px;
     border: none;
 }
- /* aside bar  */
- /* .asid-box{
-    height: 120vh;
- } */
+/* aside menu bar  */
 .side-menu-container{
     background-color: #161616;
     width: 222px;
@@ -83,6 +81,7 @@ body{
     background-color: #DD0000;
     color: #FFFFFF;
 }
+/* player box section */
 .box-container{
     /* height: 160vh; */
     width: 100%;
@@ -119,6 +118,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
+/* foooter section  */
 
 footer{
     background-color: #161616;
