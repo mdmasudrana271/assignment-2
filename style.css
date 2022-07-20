@@ -40,6 +40,8 @@ body{
     margin-top: 10%;
     height: 91%;
 }
+
+/* button  */
 .watch-btn{
     background-color: #DD0000;
     color: #ffffff;
@@ -83,15 +85,12 @@ body{
 }
 /* player box section */
 .box-container{
-    /* height: 160vh; */
     width: 100%;
     margin-left: 1%;
 }
 .boxes{
     width: 63%;
-    /* height: 45vh; */
     margin-top: 10%;
-    /* margin-left: 40%; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
@@ -132,7 +131,6 @@ footer{
 
 .footer-items{
     width: 70%;
-    /* margin-left: 15%; */
     margin-top: 5%;
     text-align: center;
 }

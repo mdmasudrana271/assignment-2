@@ -5,6 +5,7 @@ body{
     box-sizing: border-box;
     background-color: #f1ecec;
 }
+/* top section  */
 .top-section{
     background-color:#161616;
     width: 80%;
@@ -38,6 +39,7 @@ body{
     margin-top: 10%;
     height: 91%;
 }
+/* button  */
 .watch-btn{
     background-color: #DD0000;
     color: #ffffff;
@@ -80,15 +82,12 @@ body{
     color: #FFFFFF;
 }
 .box-container{
-    /* height: 160vh; */
     width: 100%;
     margin-left: 1%;
 }
 .boxes{
     width: 60%;
-    /* height: 45vh; */
     margin-top: 10%;
-    /* margin-left: 40%; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
@@ -99,7 +98,6 @@ body{
     border: 1px solid lightgray;
     padding: 5% 5%;
     text-align: center;
-    /* height: 70%; */
 }
 .team{
     display: flex;
@@ -151,6 +149,7 @@ hr{
     color: #B9B9B9;
     font: 1.5em;
 }
+/* footer icon  */
 .social-icon a{
     text-decoration: none;
     color: lightgray;
@@ -340,16 +339,15 @@ hr{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 1 px solid indianred;
+    margin-left: 5%;
 }
 .boxes{
     display: grid;
-    grid-template-columns: repeat(1, 2fr);
+    grid-template-columns: repeat(1, 1fr);
     width: 100vw;
-    /* margin-left: 40%; */
     align-items: center;
     justify-items: center;
-    justify-content: start;
+    justify-content: center;
 }
 .box{
     width: 70%;
