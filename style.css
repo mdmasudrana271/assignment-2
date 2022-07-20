@@ -41,15 +41,50 @@ body{
     height: 91%;
 }
 
-/* button  */
-.watch-btn{
+/* button animation  */
+
+.watch-btn {
+    border-radius: 4px;
     background-color: #DD0000;
-    color: #ffffff;
-    font-size: 1.5em;
-    padding: 2% 4%;
-    border-radius: 3px;
     border: none;
-}
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .watch-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .watch-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 20px;
+    transition: 0.5s;
+  }
+  
+  .watch-btn:hover span {
+    padding-right: 15px;
+  }
+  
+  .watch-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+
 /* aside menu bar  */
 .side-menu-container{
     background-color: #161616;
@@ -189,6 +224,17 @@ hr{
         justify-content: center;
         align-items: center;
     }
+
+    /* button animation  */
+    .watch-btn {
+        border-radius: 4px;
+        background-color: #DD0000;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+    }
+
     .half-width{
         width: 90%;
         height: 100%;
@@ -285,6 +331,16 @@ hr{
         justify-content: center;
         
     }
+    /* button style  */
+    .watch-btn {
+        border-radius: 4px;
+        background-color: #DD0000;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+    }
+
     .half-width{
         flex-direction: column;
         width: 100%;
