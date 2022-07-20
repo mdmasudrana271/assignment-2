@@ -159,8 +159,8 @@ hr{
     color: lightgray;
     margin: 10px;
 }
-/* media query section  */
-@media screen and (min-width:689px) and (max-width:992px) {
+/* media query section for tablet  */
+@media only screen and (min-width:689px) and (max-width:992px) {
     .top-section{
         width: 90%;
         height: 40vh;
@@ -238,5 +238,79 @@ hr{
     .footer-bottom-items{
         flex-direction: row;
         flex-wrap: wrap;
+    }
+}
+
+
+/* media query section for mobile */
+@media only screen and (max-width:688px) {
+    .top-section{
+        width: 85%;
+        height: 50%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .half-width{
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+    }
+    .description{
+        width: 180px;
+        display: flex;
+        padding-top: 5%;
+        align-items: flex-start;
+        justify-content: center;
+        
+    }
+    .hafl-width-heading{
+        font-size: 22px;
+    }
+    .hafl-width-paragraph{
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        white-space: nowrap;
+    }
+    .watch-btn{
+        padding: 5% 6%;
+    }
+    .banner-img{
+        width: 100%;
+
+    }
+
+    .side-menu-container{
+        width: 275px;
+        height: 312px;
+        background-color: #f1ecec;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+    }
+    
+    .side-menu{
+        width: 238px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        color: #161616;
+        text-decoration: none;
+    }
+    .blog{
+        background-color: #DD0000;
+        color: #FFFFFF;
     }
 }
