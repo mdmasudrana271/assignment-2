@@ -313,4 +313,11 @@ hr{
         background-color: #DD0000;
         color: #FFFFFF;
     }
+    .boxes{
+        width: 95%;
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 2%;
+    }
 }
