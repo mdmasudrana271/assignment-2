@@ -70,7 +70,7 @@ body{
     color: #161616;
     text-decoration: none;
 }
-.blog{
+.match{
     background-color: #DD0000;
     color: #FFFFFF;
 }
@@ -92,56 +92,21 @@ body{
 .box{
     border-radius: 10px;
     border: 1px solid lightgray;
-}
-.box img{
-    width: 100%;
-}
-.time img{
-    width: 1em;
-    height: 1.5em;
-}
-
-.time{
-    display: flex;
-    width: 50%;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.invisible-button button{
-    background-color: #DD0000;
-    display: flex;
-    visibility: hidden;
-}
-
-footer{
-    background-color: #161616;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    margin-top: 20%;
-}
-
-.footer-items{
-    width: 70%;
-    margin-left: 15%;
+    padding: 10% 10;
     text-align: center;
+    height: 70%;
 }
-
-.footer-items h1{
-    color: #FFFFFF;
-}
-hr{
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    margin: 5% 0;
-}
-
-.footer-bottom-items{
+.team{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
-
-.footer-bottom-items p{
-    color: #B9B9B9;
-    font: 1.5em;
+.team img{
+    width: 30%;
+}
+.box h1{
+    font-size: 1.2em;
+}
+.box p{
+    font-size: 0.9em;
 }
