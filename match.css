@@ -196,7 +196,8 @@ hr{
     }
     .side-menu-container{
         background-color: #f1ecec;
-        width: 90vw;
+        width: 85vw;
+        margin-left: 2.5%;
         height: 0; 
         border-radius: 10px;
         display: flex;
