@@ -10,7 +10,7 @@ body{
     width: 80%;
     height: 80vh;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,9 +47,9 @@ body{
     border: none;
 }
  /* aside bar  */
- .asid-box{
+ /* .asid-box{
     height: 120vh;
- }
+ } */
 .side-menu-container{
     background-color: #161616;
     width: 222px;
@@ -83,13 +83,13 @@ body{
     color: #FFFFFF;
 }
 .box-container{
-    height: 160vh;
+    /* height: 160vh; */
     width: 100%;
     margin-left: 1%;
 }
 .boxes{
     width: 63%;
-    height: 45vh;
+    /* height: 45vh; */
     margin-top: 10%;
     /* margin-left: 40%; */
     display: grid;
@@ -180,7 +180,6 @@ hr{
     }
     .half-width-paragraph{
         font-size: 5px;
-        text-el
     }
     .banner-img{
         width: 80%;
@@ -212,10 +211,11 @@ hr{
         
     }
     .boxes{
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 5%;
         width: 100%;
         justify-items: center;
+        align-items: center;
     }
     .box{
         width: 90%;      
