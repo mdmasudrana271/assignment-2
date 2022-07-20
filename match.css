@@ -113,6 +113,25 @@ body{
 .box p{
     font-size: 0.9em;
 }
+
+.hidden-btn{
+    background-color: #DD0000;
+    color: #fff;
+    border: 1px solid lightgray;
+    font-size: 2em;
+    padding: 2% 6%;
+    border-radius: 5px;
+}
+
+/* hiddne button style  */
+.hidden-section{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
  /* footer section  */
 
  footer{
@@ -231,6 +250,11 @@ hr{
     .box{
         width: 70%;
         height: 65%;     
+    }
+    /* hidden button visible  */
+
+    .hidden-section{
+        visibility: visible;
     }
 
     .footer{

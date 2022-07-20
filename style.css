@@ -117,6 +117,26 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
+/* hidden button style  */
+.hidden-btn{
+    background-color: #DD0000;
+    color: #fff;
+    border: 1px solid lightgray;
+    font-size: 2em;
+    padding: 2% 6%;
+    border-radius: 5px;
+}
+
+.hidden-section{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+
 /* foooter section  */
 
 footer{
@@ -228,6 +248,11 @@ hr{
     .box-info img{
         width: 1.5em;
         height: 1.5em;
+    }
+
+    /* hidden button visible  */
+    .hidden-section{
+        visibility: visible;
     }
 
     footer{
