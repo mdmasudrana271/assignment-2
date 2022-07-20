@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
     background-color: #f1ecec;
 }
 .top-section{
@@ -127,15 +128,18 @@ body{
 
 footer{
     background-color: #161616;
-    height: 50vh;
+    width: 100vw;
+    height: 70vh;
     display: flex;
     align-items: center;
-    margin-top: 20%;
+    flex-direction: column;
+    margin-top: 8%;
 }
 
 .footer-items{
     width: 70%;
-    margin-left: 15%;
+    /* margin-left: 15%; */
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -155,6 +159,11 @@ hr{
 .footer-bottom-items p{
     color: #B9B9B9;
     font: 1.5em;
+}
+.social-icon a{
+    text-decoration: none;
+    color: lightgray;
+    margin: 10px;
 }
 /* media query section  */
 @media screen and (min-width:689px) and (max-width:992px) {
@@ -227,5 +236,10 @@ hr{
         width: 1.5em;
         height: 1.5em;
     }
-    
+    .footer-section{
+        padding-bottom: 10%;
+    }
+    .social-icon{
+        
+    }
 }
