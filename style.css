@@ -236,10 +236,15 @@ hr{
         width: 1.5em;
         height: 1.5em;
     }
-    .footer-section{
-        padding-bottom: 10%;
+    .invisible-button{
+        visibility: visible;
     }
-    .social-icon{
-        
+    .footer-section{
+        padding-bottom: 7%;
+        /* flex-direction: column; */
+    }
+    .footer-bottom-items{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
