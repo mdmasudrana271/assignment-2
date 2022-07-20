@@ -320,12 +320,10 @@ hr{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 2%;
     }
+    .footer-section{
+        height: 90vh;
+    }
    .footer-bottom-items{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-   }
-   .social-icon{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
