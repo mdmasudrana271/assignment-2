@@ -226,6 +226,8 @@ hr{
     }
 
     /* button animation  */
+
+
     .watch-btn {
         border-radius: 4px;
         background-color: #DD0000;
@@ -233,7 +235,38 @@ hr{
         color: #FFFFFF;
         text-align: center;
         font-size: 28px;
-    }
+        padding: 10px;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+      
+      .watch-btn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .watch-btn span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: 20px;
+        transition: 0.5s;
+      }
+      
+      .watch-btn:hover span {
+        padding-right: 15px;
+      }
+      
+      .watch-btn:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    
+
+
 
     .half-width{
         width: 90%;
@@ -331,15 +364,46 @@ hr{
         justify-content: center;
         
     }
-    /* button style  */
-    .watch-btn {
-        border-radius: 4px;
-        background-color: #DD0000;
-        border: none;
-        color: #FFFFFF;
-        text-align: center;
-        font-size: 28px;
-    }
+ /* button animation  */
+
+
+ .watch-btn {
+    border-radius: 4px;
+    background-color: #DD0000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .watch-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .watch-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 20px;
+    transition: 0.5s;
+  }
+  
+  .watch-btn:hover span {
+    padding-right: 15px;
+  }
+  
+  .watch-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
 
     .half-width{
         flex-direction: column;
