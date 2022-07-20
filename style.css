@@ -148,3 +148,69 @@ hr{
     color: #B9B9B9;
     font: 1.5em;
 }
+/* media query section  */
+@media only screen and (min-width:689px) and (max-width:992px){
+    .top-section{
+        width: 90%;
+        height: 50vh;
+        margin-top: 0 auto;
+        margin-left: 40px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .half-width{
+        width: 90%;
+        height: 100%;
+    }
+    .hafl-width-heading{
+        font-size: 2em;
+    }
+    .half-width-paragraph{
+        font-size: 5px;
+        text-el
+    }
+    .side-menu-container{
+        background-color: #f1ecec;
+        width: 90vw;
+        height: 20%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .side-menu{
+        width: 192px;
+        height: 70px;
+    }
+     .bottom-box-section{
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .box-container{
+        width: 100%;
+        display: grid;
+        justify-items: end;
+        flex-direction: row;
+        
+    }
+    .boxes{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5%;
+        width: 100%;
+        justify-items: center;
+    }
+    .box{
+        width: 90%;      
+    }
+    .box img{
+        width: 100%;
+    }
+    .box-info img{
+        width: 1.5em;
+        height: 1.5em;
+    }
+    
+}
