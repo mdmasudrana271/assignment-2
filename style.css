@@ -93,6 +93,9 @@ body{
     border-radius: 10px;
     border: 1px solid lightgray;
 }
+.box-info{
+    margin-left: 5%;
+}
 .box img{
     width: 100%;
 }
